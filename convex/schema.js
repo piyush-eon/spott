@@ -53,6 +53,7 @@ export default defineSchema({
     address: v.optional(v.string()),
     city: v.string(),
     state: v.optional(v.string()),
+    country: v.string(),
 
     // Capacity & Ticketing
     capacity: v.number(),
